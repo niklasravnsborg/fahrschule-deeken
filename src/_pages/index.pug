@@ -1,0 +1,202 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		title Fahrschule Deeken
+		meta(name="description", content="")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+
+		link(rel="stylesheet", href="/assets/css/main.css")
+	body
+		| <!--[if lt IE 10]><p class="browserupgrade">Du benutzt einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">aktualisiere Deinen Browser</a> um das Internet-Erlebnis zu verbessern.</p><![endif]-->
+
+		nav.main-navigation#navigation
+			a(href="#team") Team
+			a(href="#leistungen") Leistungen
+			a(href="#fahrzeuge") Fahrzeuge
+			a(href="#seminare") Seminare
+			a(href="#kontakt") Kontakt
+
+		header.main-header.text-center
+			img.main-header-logo(src="/assets/img/logo.svg", alt="Fahrschule Deeken")
+			h1 Mit Erfolg zum Führerschein
+			p Zielorientiert, Pünktlich, Zuverlässig
+			a.button.big.inverted.strong.outline(href="tel:+4917634408080") 0176 34408080
+
+		section.section.main-addresses
+			.container
+				.row
+					.col.col-4.first
+						h2 Wilhelmshaven
+						address.
+							Börsenstraße 69<br>
+							26382 Wilhelmshaven<br>
+							<br>
+							Dienstag und Donnerstag<br>
+							18:00 - 20:00
+					.col.col-4.second
+						h2 Fedderwardergroden
+						address.
+							Posenerstraße 68<br>
+							26388 Wilhelmshaven<br>
+							<br>
+							Montag und Mittwoch<br>
+							17:30 - 19:30
+					.col.col-4.third
+						h2 Schortens
+						address.
+							Menkestraße 42<br>
+							26419 Schortens<br>
+							<br>
+							Montag und Donnerstag<br>
+							​18:15 - 20:00
+
+		section.section.main-team#team
+			.container
+				h2.section-headline Das Team
+				.row
+					.col.col-3
+						h3 Klaus
+						div.primary.person-info Leiter
+						div +49 176 34408080
+					.col.col-3
+						h3 Dieter
+						div.primary.person-info Fahrlehrer
+						div +49 157 88236245
+					.col.col-3
+						h3 Michel
+						div.primary.person-info Fahrlehrer
+						div +49 1522 4292926
+					.col.col-3
+						h3 Dieter Franz
+						div.primary.person-info Fahrlehrer Schortens
+						div +49 173 8279708
+
+		section.section.main-services#leistungen
+			.container
+				h2.section-headline Leistungen
+				.row
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Auto.png", alt="Auto")
+						h3 Auto
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Anhaenger.png", alt="Anhänger")
+						h3 Anhänger
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Motorrad.png", alt="Motorrad")
+						h3 Motorrad
+				.row
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Roller.png", alt="Roller")
+						h3 Roller
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Mofa.png", alt="Mofa")
+						h3 Mofa
+					.col.col-4.text-center
+						img(src="/assets/img/piktogramme/Seminare.png", alt="Seminare")
+						h3 Seminare
+
+		section.section.main-vehicles#fahrzeuge
+			.container
+				h2.section-headline Fahrzeuge
+				.row.gutters
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/VW_Tiguan_Klasse_B.jpg", alt="VW Tiguan")
+						h3 VW Tiguan
+						div.primary Klasse B
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/VW_Touran_Klasse_B.jpg", alt="VW Touran")
+						h3 VW Touran
+						div.primary Klasse B
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/VW_Touran_Klasse_BE.jpg", alt="VW Touran")
+						h3 VW Touran
+						div.primary Klasse BE
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/Honda_CB125F_Klasse_A1.jpg", alt="Honda CB125F")
+						h3 Honda CB125F
+						div.primary Klasse A1
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/Honda_CB500_Klasse_A2.jpg", alt="Honda CB500")
+						h3 Honda CB500
+						div.primary Klasse A2
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/Honda_CB650_Klasse_A.jpg", alt="Honda CB650")
+						h3 Honda CB650
+						div.primary Klasse A
+					.col.col-3
+						img(src="/assets/img/fahrzeuge/Honda_CBR125_Klasse_A1.jpg", alt="Honda CBR125")
+						h3 Honda CBR125
+						div.primary Klasse A1
+
+		section.section#seminare
+			.container
+				h2.section-headline Unsere Seminare
+				.row.gutters
+					.col.col-6
+						.box
+							h3 Seminare für Fahranfänger
+							hr.max-w10
+							p.
+								Natürlich bieten wir Aufbauseminare an. Nach Absprache
+								machen wir kurzfristig Termine für Punkteabbauseminare
+								in Wilhelmshaven im Einzelunterricht oder in der Gruppe.
+					.col.col-6
+						.box
+							h3 Seminare zum Punkteabbau
+							hr.max-w10
+							p.
+								Um Ihre Punkte abzubauen, besuchen Sie bei uns in der
+								Fahrschule zweimal den 90-minütigen verkehrspädagogischen
+								Teil und zweimal den 75-minütigen verkehrspsychologischen
+								Teil. Den psychologischen Teil übernimmt unsere
+								Koorparationspartnerin
+								<a href="http://www.xn--fhrerscheinwerkstatt-pec.de">Lilo Harms</a>.
+
+		section.section#kontakt
+			.container
+				.row.align-center
+					form.ajax.col.col-7(action="/assets/php/contact.php" method="POST")
+						h2.section-headline Kontakt
+						p.text-center.
+							Benutzen Sie dieses Kontaktformular
+							oder schreiben Sie an <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#111;&#110;&#116;&#097;&#107;&#116;&#064;&#102;&#097;&#104;&#114;&#115;&#099;&#104;&#117;&#108;&#101;&#045;&#100;&#101;&#101;&#107;&#101;&#110;&#046;&#100;&#101;">&#107;&#111;&#110;&#116;&#097;&#107;&#116;&#064;&#102;&#097;&#104;&#114;&#115;&#099;&#104;&#117;&#108;&#101;&#045;&#100;&#101;&#101;&#107;&#101;&#110;&#046;&#100;&#101;</a>.
+						.row.gutters
+							.col.col-6
+								.form-item
+									input(type="text" name="name" placeholder="Name")
+							.col.col-6
+								.form-item
+									input(type="email" name="mail" placeholder="Email")
+
+						.form-item
+							textarea(name="message" placeholder="Nachricht")
+
+						.form-item
+							button.button(type="submit") Absenden
+
+						.status
+
+		section.section
+			.container
+				h2.section-headline Sozial im Netz
+				a.facebook-button.button(href="https://www.facebook.com/Fahrschule-Deeken-677772759064943/?fref=ts" target="_blank") Zu unserer Facebook Seite
+
+		footer.main-footer.text-center
+			.container
+				h3 Fahrschule Deeken
+				address.
+					Börsenstraße 69, 26382 Wilhelmshaven<br>
+					Mobil: 0171 - 81 00 974<br>
+					Email: <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#107;&#108;&#097;&#117;&#115;&#064;&#102;&#097;&#104;&#114;&#115;&#099;&#104;&#117;&#108;&#101;&#045;&#100;&#101;&#101;&#107;&#101;&#110;&#046;&#100;&#101;">klaus@fahrschule-deeken.de</a><br>
+					<br>
+					<br>
+					Die Innenstadt Fahrschule ist für Euch da:<br>
+					Di + Do 18:00-20:00 und nach Vereinbarung<br>
+				p
+					a(href="#") Impressum
+
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js")
+		script(src="/assets/js/main.js")
